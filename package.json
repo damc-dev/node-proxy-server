@@ -1,0 +1,22 @@
+{
+  "name": "node-proxy-server",
+  "version": "0.0.0",
+  "description": "A reverse proxy server to network my auth-api with other backend api's",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/damc-dev/node-proxy-server.git"
+  },
+  "author": "David McElligott",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/damc-dev/node-proxy-server/issues"
+  },
+  "dependencies": {
+    "node-http-proxy": "0.0.3",
+    "http-proxy": "~1.8.1"
+  }
+}
